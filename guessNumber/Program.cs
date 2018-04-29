@@ -11,7 +11,7 @@ namespace guessNumber
         static void Main(string[] args)
         {
             bool quit = false;
-            Console.WriteLine("You are  now playing 'Guess a Number'! The number is going to draw randomly from the range of 1 - 100. Enter the number you think the console drew and you have six chances to guess! Good luck!");
+            Console.WriteLine("You are now playing 'Guess a Number'! The number is going to draw randomly from the range of 1 - 100. Enter the number you think the console drew and you have six chances to guess! Good luck!");
             while (!quit) 
             {
                 Random random = new Random();
